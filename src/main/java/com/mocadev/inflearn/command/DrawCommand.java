@@ -9,7 +9,7 @@ import java.awt.Point;
  * @github https://github.com/chcjswo
  * @since 2021-06-07
  **/
-public class DrawCommand implements Command {
+public class DrawCommand implements Command, Cloneable {
 
 	private Point point;
 	private Drawable drawable;

@@ -33,4 +33,7 @@ public class DrawCanvas extends Canvas implements Drawable {
 		g.fillOval(x - radius, y - radius, radius * 2, radius * 2);
 	}
 
+	public void setHistory(MacroCommand history) {
+		this.history = history;
+	}
 }
