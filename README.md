@@ -1,2 +1,3 @@
-# design-pattern
-Java Design-Pattern
+# Java design-pattern
+
+### Sigleton Pattern
