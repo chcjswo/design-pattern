@@ -13,3 +13,5 @@
 ### 3. Decorator Pattern
 
 ### 4. State Pattern
+
+### 5. Command Pattern
