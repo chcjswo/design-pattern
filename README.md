@@ -15,3 +15,5 @@
 ### 4. State Pattern
 
 ### 5. Command Pattern
+
+### 6. Observer Pattern
