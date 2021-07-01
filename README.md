@@ -17,3 +17,6 @@
 ### 5. Command Pattern
 
 ### 6. Observer Pattern
+
+
+### 7. Decorator Pattern
