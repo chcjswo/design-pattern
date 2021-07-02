@@ -21,3 +21,5 @@
 ### 7. Decorator Pattern
 
 ### 8. Template Method Pattern
+
+### 9. Factory Method Pattern
