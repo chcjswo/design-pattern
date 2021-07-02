@@ -18,5 +18,6 @@
 
 ### 6. Observer Pattern
 
-
 ### 7. Decorator Pattern
+
+### 8. Template Method Pattern
