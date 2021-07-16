@@ -23,3 +23,5 @@
 ### 8. Template Method Pattern
 
 ### 9. Factory Method Pattern
+
+### 10. Abstract Factory Pattern
