@@ -12,7 +12,7 @@ public class SchedulerTest {
 	public static void main(String[] args) {
 		Scheduler scheduler = null;
 
-		for (int i = 1; i < 4; i++) {
+		for (int i = 1; i <= 3; i++) {
 			if (i == 1) {
 				scheduler = new RoundRobin();
 			} else if (i == 2) {
