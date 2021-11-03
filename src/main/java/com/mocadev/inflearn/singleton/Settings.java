@@ -1,5 +1,7 @@
 package com.mocadev.inflearn.singleton;
 
+import java.io.Serializable;
+
 /**
  * @author chcjswo
  * @version 1.0.0
@@ -7,7 +9,7 @@ package com.mocadev.inflearn.singleton;
  * @github https://github.com/chcjswo
  * @since 2021-11-03
  **/
-public class Settings {
+public class Settings implements Serializable {
 
 	private Settings() {
 
@@ -20,4 +22,9 @@ public class Settings {
 	public static Settings getInstance() {
 		return SettingsHolder.INSTANCE;
 	}
+
+	protected Object readResolve() {
+		return getInstance();
+	}
+
 }
