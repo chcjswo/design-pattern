@@ -9,7 +9,7 @@ package com.mocadev.inflearn.singleton;
  **/
 public class Settings {
 
-	private static Settings instance;
+	private static volatile Settings instance;
 
 	private Settings() {
 
