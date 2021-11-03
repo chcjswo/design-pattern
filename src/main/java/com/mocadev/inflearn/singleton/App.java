@@ -1,5 +1,8 @@
 package com.mocadev.inflearn.singleton;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 /**
  * @author chcjswo
  * @version 1.0.0
@@ -9,9 +12,13 @@ package com.mocadev.inflearn.singleton;
  **/
 public class App {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+		throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
 		Settings settings = Settings.getInstance();
-		System.out.println(settings == Settings.getInstance());
+		final Constructor<Settings> constructor = Settings.class.getDeclaredConstructor();
+		constructor.setAccessible(true);
+		final Settings settings1 = constructor.newInstance();
+		System.out.println(settings == settings1);
 	}
 
 }
