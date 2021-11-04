@@ -10,11 +10,13 @@ package com.mocadev.inflearn.factorymethod.factory_02;
 public class Client {
 
 	public static void main(String[] args) {
-		final Ship whiteShip = new WhiteShipFactory().orderShip("whiteShip", "whiteShip@test.com");
-		System.out.println("whiteShip = " + whiteShip);
+		Client client = new Client();
+		client.print(new WhiteShipFactory(), "whiteShip", "whiteShip@test.com");
+		client.print(new WhiteShipFactory(), "blackShip", "blackShip@test.com");
+	}
 
-		final Ship blackShip = new BlackShipFactory().orderShip("blackShip", "blackShip@test.com");
-		System.out.println("blackShip = " + blackShip);
+	private void print(ShipFactory shipFactory, String name, String email) {
+		System.out.println(shipFactory.orderShip(name, email));
 	}
 
 }
