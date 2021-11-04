@@ -1,4 +1,4 @@
-package com.mocadev.inflearn.factorymethod;
+package com.mocadev.inflearn.factorymethod.factory_01;
 
 /**
  * @author chcjswo
