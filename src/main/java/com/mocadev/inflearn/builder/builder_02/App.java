@@ -12,7 +12,7 @@ import java.time.LocalDate;
 public class App {
 
 	public static void main(String[] args) {
-		TourPlanBuilder builder = new DefaultTourBuilder();
+		TourPlanBuilder builder = new DefaultTourBuilder().newInstance();
 		builder.title("제주도 여행")
 			.nightsAndDays(3, 4)
 			.startDate(LocalDate.of(2020, 6, 19))
@@ -23,7 +23,7 @@ public class App {
 
 		System.out.println("builder = " + builder);
 
-		TourDirector director = new TourDirector(new DefaultTourBuilder());
+		TourDirector director = new TourDirector(new DefaultTourBuilder().newInstance());
 		final TourPlan tourPlan = director.GuamTrip();
 		System.out.println("tourPlan = " + tourPlan);
 	}
