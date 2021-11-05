@@ -1,4 +1,4 @@
-package com.mocadev.inflearn.builder;
+package com.mocadev.inflearn.builder.builder_01;
 
 /**
  * @author chcjswo

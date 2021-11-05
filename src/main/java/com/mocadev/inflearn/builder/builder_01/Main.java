@@ -1,6 +1,6 @@
-package com.mocadev.inflearn.builder;
+package com.mocadev.inflearn.builder.builder_01;
 
-import com.mocadev.inflearn.builder.Text.Builder;
+import com.mocadev.inflearn.builder.builder_01.Text.Builder;
 
 /**
  * @author chcjswo
