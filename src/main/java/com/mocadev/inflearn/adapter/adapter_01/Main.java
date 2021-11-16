@@ -1,4 +1,4 @@
-package com.mocadev.inflearn.adapter;
+package com.mocadev.inflearn.adapter.adapter_01;
 
 /**
  * @author chcjswo
