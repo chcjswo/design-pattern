@@ -1,6 +1,6 @@
-package com.mocadev.fastcampus.Bridge.list;
+package com.mocadev.fastcampus.bridge.list;
 
-import com.mocadev.fastcampus.Bridge.impl.AbstractList;
+import com.mocadev.fastcampus.bridge.impl.AbstractList;
 
 /**
  * @author chcjswo

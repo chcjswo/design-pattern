@@ -1,4 +1,4 @@
-package com.mocadev.fastcampus.Bridge.impl;
+package com.mocadev.fastcampus.bridge.impl;
 
 /**
  * @author chcjswo
