@@ -1,4 +1,4 @@
-package com.mocadev.headfirst.factory.pizza;
+package com.mocadev.headfirst.factory.v2.pizza;
 
 /**
  * @author chcjswo
@@ -7,6 +7,6 @@ package com.mocadev.headfirst.factory.pizza;
  * @github https://github.com/chcjswo
  * @since 2022-02-05
  **/
-public class GreekPizza extends Pizza {
+public class VeggiePizza extends Pizza {
 
 }

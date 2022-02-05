@@ -1,4 +1,4 @@
-package com.mocadev.headfirst.factory.pizza;
+package com.mocadev.headfirst.factory.v2.pizza;
 
 /**
  * @author chcjswo
@@ -23,7 +23,7 @@ public class Pizza {
 	}
 
 	public void box() {
-		System.out.println("피자 담기");
+		System.out.println("피자 포장");
 	}
 
 }

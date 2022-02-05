@@ -1,6 +1,6 @@
-package com.mocadev.headfirst.factory;
+package com.mocadev.headfirst.factory.v1;
 
-import com.mocadev.headfirst.factory.pizza.Pizza;
+import com.mocadev.headfirst.factory.v1.pizza.Pizza;
 
 /**
  * @author chcjswo

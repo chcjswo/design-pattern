@@ -1,11 +1,11 @@
-package com.mocadev.headfirst.factory;
+package com.mocadev.headfirst.factory.v1;
 
-import com.mocadev.headfirst.factory.pizza.CheesePizza;
-import com.mocadev.headfirst.factory.pizza.ClamPizza;
-import com.mocadev.headfirst.factory.pizza.GreekPizza;
-import com.mocadev.headfirst.factory.pizza.PepperoniPizza;
-import com.mocadev.headfirst.factory.pizza.Pizza;
-import com.mocadev.headfirst.factory.pizza.VeggiePizza;
+import com.mocadev.headfirst.factory.v1.pizza.CheesePizza;
+import com.mocadev.headfirst.factory.v1.pizza.ClamPizza;
+import com.mocadev.headfirst.factory.v1.pizza.GreekPizza;
+import com.mocadev.headfirst.factory.v1.pizza.PepperoniPizza;
+import com.mocadev.headfirst.factory.v1.pizza.Pizza;
+import com.mocadev.headfirst.factory.v1.pizza.VeggiePizza;
 
 /**
  * The type Simple pizza factory.
