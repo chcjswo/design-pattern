@@ -11,8 +11,7 @@ import com.mocadev.headfirst.factory.v3.pizza.Pizza;
  **/
 public abstract class PizzaStore {
 
-	// 해당 메소드는 추상 클래스에 정의
-	// 이 메소드는 실제로 어떤 서브 클래스에서 코드를 실행 하는지 알 수가 없다
+	// type은 type-safety를 위해 enum을 사용하는게 좋다.
 	public Pizza orderPizza(String type) {
 		Pizza pizza = createPizza(type);
 
