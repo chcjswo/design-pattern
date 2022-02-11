@@ -22,6 +22,7 @@ public class Singleton {
 		return instance;
 	}
 
+	// 메소드 동기화는 100배 정도의 성능 저하 발생
 //	public static synchronized Singleton getInstance(){
 //		if (instance == null) {
 //			instance = new Singleton();
